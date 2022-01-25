@@ -1,6 +1,6 @@
 import React from 'react';
 import {AiOutlineGoogle} from "react-icons/ai"
-import { AuthenticationStyled } from './styles/Authentication.styled';
+import { AuthenticationStyled } from '../components/styles/Authentication.styled';
 import {useAuth0} from '@auth0/auth0-react'
 const Authentication = () => {
     const {loginWithRedirect} = useAuth0();
